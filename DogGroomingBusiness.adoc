@@ -1,5 +1,6 @@
 = Agile game: Dog Grooming Business
 :backend: html5
+:data-uri:
 :doctype: article
 :icons: font
 :icontype: svg
