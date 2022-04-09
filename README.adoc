@@ -1,0 +1,16 @@
+= Collection of agile games
+:data-uri:
+:doctype: article
+:icons: font
+:icontype: svg
+:lang: en
+:nofooter:
+
+This folder contains a collection of agile games.
+The main focus is on teams that work remotely and cannot meet in person because they are located on different parts of the world.
+
+== Games
+
+:url-dog-grooming-business: DogGroomingBusiness.adoc[Dog Grooming Business]
+
+* link:{url-dog-grooming-business}
