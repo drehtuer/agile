@@ -1,0 +1,127 @@
+= Agile game: Dog Grooming Business
+:backend: html5
+:doctype: article
+:icons: font
+:icontype: svg
+:lang: en
+:nofooter:
+:toc: auto
+:xrefstyle: short
+
+== Overview
+
+:url-game-origin: https://miro.com/miroverse/doggy-estimating-online[Richard Kasperowski's Doggy Estimation Online^]
+
+[cols="h,d" ,options="autowidth"]
+|===
+| Estimated time | One hour
+| Suitable for online groups | Yes
+| Learning area | Estimation
+| Scrum level | Beginner
+| Programming | None
+|===
+
+The goal of this game is to teach relative estimation of work packages.
+Instead of abstract stories, it uses something everyone can relate to and has seen in real live or a movie: dogs.
+This lowers the entry bar and should help to allow everyone to partake in the estimation and discussion.
+
+Idea taken from: link:{url-game-origin}
+
+WARNING: The last section should only be read by the person running the game.
+That section is be marked with a warning admonition like this.
+It contains spoilers and background information that help the person running the game and should not be shown to the team.
+
+
+== Introduction
+
+The company changed business and is now providing grooming services for dogs.
+Since the company is new to this field of business, the team needs to estimate how much effort to expect for groom certain breeds of dogs.
+
+Effort could be time in hours, complexity, or any number, as long as it is relative to each other.
+A job _X_ that is twice as hard as job _Y_ should receive a higher number, but it doesn't have to be exactly _Y = 2 * X_.
+
+The _Scrum Master_ will go through the list of dogs one by one and the _Developers_ will estimate the amount of work needed for grooming.
+
+IMPORTANT: No one should look up the dog breeds in background, it defeats the purpose of the exercise.
+Everyone can ask the _Product Owner_ for additional information.
+The _Product Owner_ can ask the person running the game if he does not know the answer.
+Just don't expect that every question will be answered in detail, though.
+
+
+=== Definition of Done (DoD)
+
+The definition of done (DoD) for grooming a dog are:
+
+* [ ] The dog has been washed
+* [ ] The dog has been dried
+* [ ] The dog hair has been trimmed
+* [ ] The dog has been brushed
+* [ ] The dog's teeth have been cleaned
+* [ ] The dog's claws have been cut
+* [ ] The dog is wearing a super-cute bandana with the company's logo
+
+
+=== Estimation
+
+The team should decide how they want to estimate. Use planning poker, t-shirt sizes, Fibonacci numbers, etc.
+
+Feel free to treat each dog as an epic that can be broken down to stories.
+This could help estimation the effort.
+But remember that this game is time boxed and the estimation should take around 30-45 minutes.
+Plan some time for the closing discussion.
+
+Make sure that everyone is taking part in the estimation and can freely join any discussions and remember that there is _no right or wrong_ for estimations.
+
+
+=== Game loop
+
+The person running the game gives the next name of the dog breed to the _Product Owner_.
+The _Scrum Master_ moderates the discussion in the team and facilitate the estimation.
+
+After each breed, compare the estimations.
+If there is a noticeable gap between estimations, the developers that estimated the highest and lowest value should explain their thinking.
+Start with the lowest, than the highest.
+
+Do not change any estimations already done, the new estimations should always be relative to the previous estimations.
+There are in total 6 breeds, so plan your time accordingly.
+
+
+== Closing discussion
+
+After the estimation is done, have a short discussion about the game.
+Here are a few questions to start the discussion:
+
+* How you would change your estimation after hearing all the dog breed's names?
+* How has the "mental model" for estimating dog grooming changed during the game?
+* What could be improved in the estimation process? Would another method work better?
+
+
+== Notes for the person running the game
+
+:url-wikipedia-golden-retriever: https://en.wikipedia.org/wiki/Golden_Retriever[Golden Retriever^]
+:url-wikipedia-great-dane: https://en.wikipedia.org/wiki/Great_Dane[Great Dane^]
+:url-wikipedia-poodle: https://en.wikipedia.org/wiki/Poodle[Poodle^]
+:url-wikipedia-chihuahua: https://en.wikipedia.org/wiki/Chihuahua_(dog)[Chihuahua^]
+:url-wikipedia-newfoundland: https://en.wikipedia.org/wiki/Newfoundland_dog[Newfoundland^]
+
+WARNING: This section is only for the person running the game and contains spoilers.
+
+.Show text
+[%collapsible]
+====
+Here is a list of dogs, linking to Wikipedia so you can answer questions for each type.
+
+NOTE: You don't have to answer all questions. Estimation is not a game of absolute knowledge.
+Only answer questions that allow for a rough estimation.
+
+1. link:{url-wikipedia-golden-retriever}
+1. link:{url-wikipedia-great-dane}
+1. link:{url-wikipedia-poodle}
+1. link:{url-wikipedia-chihuahua}
+1. link:{url-wikipedia-newfoundland}
+1. Austrian Guildenbaur
+
+NOTE: The _Austrian Guildenbaur_ is a made up name, there is no such breed.
+Only answer very vaguely to any questions for this breed.
+After the team struggled a bit with that breed, let them know that it does not exist to lighten the mood at the end of the session.
+====
